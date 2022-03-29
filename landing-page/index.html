@@ -8,12 +8,15 @@
     <link rel="stylesheet" href="src/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
         <div class="container header-wrapper">
-            <img src="img/logo-header.svg" alt="logo" class="logo">
+            <img src="img/logo-header.png" alt="logo" class="logo">
             <nav>
                 <ul>
                     <li><a href="#" class="selected-page-nav">About</a></li>
@@ -30,14 +33,25 @@
                 <button class="log-in">log in</button>
                 <button class="sign-up">sign up</button>
             </div>
+            <button class="burger-btm"><img src="img/burger-menu-btn.png" alt="burger menu"></button>
+            
         </div>
+        
     </header>
+    <div class="burger-menu hidden">
+        <a href="">about</a>
+        <a href="">MAP</a>
+        <a href="">zoos</a>
+        <a href="">contact us</a>
+        <a href="">design</a>
+        <a href="">My account</a>
+    </div>
     <main>
         <div class="firstpage">
             <div class="container first-page-wrapper">
                 <div class="first-page-text">
                     <h1>
-                        <span>Watch your favorite</span> animals online
+                        <span>Watch your favorite</span><br> animals online
                     </h1>
                     <p>
                         Observe different animals from around the world online in live time. Help vulunteers to take a good care of animals, donate to your favorite ones.
@@ -45,13 +59,311 @@
                     <button>Watch now</button>
                 </div>
                 <aside class="first-page-img">
-                    <img src="img/first-page-img.svg" alt="panda">
-                    <button class="start-video"><img src="img/button-start-first-page.svg" alt="start"></button>
+                    <img src="img/first-page-img.png" alt="panda" class="mainimg">
+                    <button class="start-video"><img src="img/button-start-first-page.png" alt="start"></button>
                 </aside>
             </div>
         </div>
-    </main>
+        <div class="secoundpage">
+            <div class="container secound-wrapper">
+                <h2>How it works </h2>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-img-wrapper">
+                            <img src="img/secondpage-buble.png" alt="">
+                        </div>
+                            <p>Keep an eye on your favourite animals online</p>
+                    </div>
+                    <div class="card space-y">
+                        <div class="card-img-wrapper">
+                            <img src="img/first-page-img-sec.png" alt="">
+                        </div>
+                            <p>Become a part of the communtity</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-img-wrapper">
+                            <img src="img/first-page-img-third.png" alt="">
+                        </div>
+                        <p>Support animals with the donations</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <img src="img/Illustrations.svg" alt="ilustrations" class="ilustration">
+        <div class="thirdpage">
+            <div class="container">
+                <div class="top-buttons">
+                    <h2>Pets in zoo</h2>
+                    <button>
+                        <img src="img/heart-on-button.png" alt="heart">
+                        <p>Choose your Favorite</p>
+                    </button>
+                </div>
+                <div class="wrapper-adaptive">
 
+                    <div class="third-page-cards">
+                        <div class="cardth first">
+                            <div class="top-img">
+                                <img src="img/panda-card.png" alt="panda">
+                            </div>
+                            <div class="bottom-part">
+                                <div class="text-part">
+                                    <h3>
+                                        Pandas
+                                    </h3>
+                                    <p>
+                                        Shenshuping Gengda Panda Center
+                                    </p>
+                                </div>
+                                <div class="image">
+                                    <img src="img/tv-btn.svg" alt="tv">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cardth secound">
+                            <div class="top-img">
+                                <img src="img/eagle.png" alt="eagle">
+                            </div>
+                            <div class="bottom-part">
+                                <div class="text-part">
+                                    <h3>
+                                        Eagles
+                                    </h3>
+                                    <p>
+                                        Catalina Island
+                                    </p>
+                                </div>
+                                <div class="image">
+                                    <img src="img/tv-btn.svg" alt="tv">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cardth nowrap third">
+                            <div class="top-img">
+                                <img src="img/gorrila-card.png" alt="gorrila">
+                            </div>
+                            <div class="bottom-part">
+                                <div class="text-part">
+                                    <h3>
+                                        Gorillas
+                                    </h3>
+                                    <p>
+                                        GRACE gorillas
+                                    </p>
+                                </div>
+                                <div class="image">
+                                    <img src="img/tv-btn.svg" alt="tv">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cardth nobottomwrap forth">
+                            <div class="top-img">
+                                <img src="img/aligators.png" alt="panda">
+                            </div>
+                            <div class="bottom-part">
+                                <div class="text-part">
+                                    <h3>
+                                        Aligators
+                                    </h3>
+                                    <p>
+                                        St. Augustine's Alligator Farm Zoological Park
+                                    </p>
+                                </div>
+                                <div class="image">
+                                    <img src="img/tv-btn.svg" alt="tv">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cardth fifth">
+                            <div class="top-img">
+                                <img src="img/elephants.png" alt="elephants">
+                            </div>
+                            <div class="bottom-part">
+                                <div class="text-part">
+                                    <h3>
+                                        Elephants
+                                    </h3>
+                                    <p>
+                                        Tembe Elephant Park
+                                    </p>
+                                </div>
+                                <div class="image">
+                                    <img src="img/tv-btn.svg" alt="tv">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cardth nowrap sixth">
+                            <div class="top-img">
+                                <img src="img/lemurs.png" alt="lemurs">
+                            </div>
+                            <div class="bottom-part">
+                                <div class="text-part">
+                                    <h3>
+                                        Lemurs
+                                    </h3>
+                                    <p>
+                                        Madagascar
+                                    </p>
+                                </div>
+                                <div class="image">
+                                    <img src="img/tv-btn.svg" alt="tv">
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="slider-btns">
+                        <button class="toright" width="15px">
+                            <img src="img/to-right.svg" alt="toright">
+                        </button>
+                        <button class="toleft">
+                            <img src="img/to-left.svg" alt="toleft">
+                        </button>
+                        <img class="penguin" src="img/penguin.png" alt="penguin" >
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div class="forthpage">
+            <div class="container forthwrapper">
+                <h2 class="pay-feed-header">
+                    Pay and feed
+                </h2>
+                <button class="donates">
+                    donates to volonteers
+                </button>
+                <div class="bubbles-fp">
+                    <img src="img/donate.png" alt="donate" class="bublefp">
+
+                    <span class='arrow'><img src="img/arrow-right.png" alt="" class="arrow-both"><img src="img/arrow-right-sec.png" alt="" class="arrow-left"></span>
+
+                    <img src="img/trust.png" alt="trust" class="bublefp">
+
+                    <span class='arrow'><img src="img/arrow-right.png" alt="" class="arrow-both"><img src="img/arrow-right-sec.png" alt="" class="arrow-left"></span>
+
+                    <img src="img/monkey.png" alt="monkey" class="bublefp">
+                </div>
+            </div>
+        </div>
+        <div class="fifthpage">
+            <div class="container">
+                <div class="feedback">
+                    <h2 class="testimonials">Testimonials</h2>
+                    <button class="leave-feedback">
+                        <img src="img/message.png" alt="message">
+                        <p>Leave feedback</p>
+                    </button>
+                </div>
+                <div class="forth-cards">
+                    <div class="feedback-card">
+                        <p class="data">
+                            20 Decepmer 2020
+                        </p>
+                        <p class="text">
+                            Awesome place to observe my favourite aligators at Florida, the quality of the video is great. 
+                        </p>
+                        
+                    </div>
+                    <div class="feedback-card">
+                        <p class="data">
+                            20 Decepmer 2020
+                        </p>
+                        <p class="text">
+                            Awesome place to observe my favourite aligators at Florida, the quality of the video is great. 
+                        </p>
+                    </div>
+                    <div class="feedback-card">
+                        <p class="data">
+                            20 Decepmer 2020
+                        </p>
+                        <p class="text">
+                            Awesome place to observe my favourite aligators at Florida, the quality of the video is great. 
+                        </p>
+                    </div>
+                </div>
+                <div class="autors">
+                    <div class="autor first-autor">
+                        <img src="img/adam.png" alt="adam">
+                        <p>Adam, Spain</p>
+                    </div>
+                    <div class="autor secound-autor">
+                        <img src="img/cris.png" alt="cris">
+                        <p>Chris, Australia</p>
+                    </div>
+                    <div class="autor third-autor">
+                        <img src="img/amely.png" alt="amely">
+                        <p>Amely, USA</p>
+                    </div>
+                </div>
+                <div class="animals-last-page">
+                    <h2>Look at this beautiful animals</h2>
+                    <div class="animals-list">
+                        <div class="animal-el">
+                            <img src="img/panda-card.png" alt="">
+                            <p>Pandas</p>
+                        </div>
+                        <div class="animal-el">
+                            <img src="img/gorrila-card.png" alt="">
+                            <p>Gorillas</p>
+                        </div>
+                        <div class="animal-el">
+                            <img src="img/eagle.png" alt="">
+                            <p>Eagles</p>
+                        </div>
+                        <div class="animal-el aligator">
+                            <img src="img/aligators.png" alt="">
+                            <p>Aligators</p>
+                        </div>
+                        <div class="animal-el adapt-cut">
+                            <img src="img/elephants.png " alt="">
+                            <p>elephants</p>
+                        </div>
+                        <div class="animal-el lemur adapt-cut">
+                            <img src="img/lemurs.png" alt="">
+                            <p>LEMURS</p>
+                        </div>
+                        <div class="animal-el nowrap-right pand">
+                            <img src="img/panda-card.png" alt="">
+                            <p>PANDAS</p>
+                        </div>
+                        <div class="buttons-last">
+                            <button class="btn-marg">
+                                <img src="img/to-right.png" alt="">
+                            </button>
+                            <button>
+                                <img src="img/to-left.png" alt="">
+                            </button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="animal-list">
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container footer-wrapper">
+            <img src="img/logo-header.png" alt="logo" class="logo-footer">
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Map</a></li>
+                    <li><a href="#">Zoos</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li class="nowrap"><a href="#">design</a></li>
+                </ul>
+            </div>
+            
+            
+
+        </div>
+        <p class="designed-by">Design by Lemeshko Kateryna<br>©RSSchool and ©Yem Digital 2021</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
