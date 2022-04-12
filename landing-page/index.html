@@ -14,6 +14,151 @@
 
 </head>
 <body>
+    <div class="burger-login disabled">
+        <div class="log-pos">
+            <div class="top-part-burger">
+                <img src="img/logo-large.png" alt="" class="burg-logo">
+            </div>
+            <div class="bottom-part-burger">
+                <div class="log-type-switcher">
+                    <button class="create-account-btn">Create Account</button>
+                    <button class="blue-line">log in</button>
+                </div>
+                <div class="net-connect">
+                    <button class="google-connect-btn"><img src="img/Google Logo.svg" alt="google">Google <span class="delete-ltl"> Sign in</span></button>
+                    <button class="facebook-connect-btn"><img src="img/Facebook Logo.svg" alt="fb">Facebook <span class="delete-ltl"> Sign in</span></button>
+                </div>
+                <div class="login-process">
+                    <form action="">
+                        <label for="email">email</label><br>
+                        <input type="text" id="email" class="email-form-reg">
+
+                        <label for="password">password</label><br>
+                        <input type="text" id="password" class="password-form-reg">
+                        <button>send</button>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="burger-registration disabled">
+        <div class="log-pos">
+            <div class="top-part-burger">
+                <img src="img/logo-large.png" alt="" class="burg-logo">
+            </div>
+            <div class="bottom-part-burger">
+                <div class="log-type-switcher">
+                    <button class="create-account-btn">Create Account</button>
+                    <button class="log-in-btn">log in</button>
+                </div>
+                <div class="net-connect">
+                    <button class="google-connect-btn"><img src="img/Google Logo.svg" alt="google">Google <span class="delete-ltl"> Sign in</span></button>
+                    <button class="facebook-connect-btn"><img src="img/Facebook Logo.svg" alt="fb">Facebook <span class="delete-ltl"> Sign in</span></button>
+                </div>
+                <div class="registration-process">
+                    <form action="">
+                        <label for="name" class="del-ltl-nm">name</label><br>
+                        <input type="text" id="name" class="name-form-reg del-ltl-nm">
+
+                        <label for="email">email</label><br>
+                        <input type="text" id="email" class="email-form-reg">
+
+                        <label for="password">password</label><br>
+                        <input type="text" id="password" class="password-form-reg">
+                        
+                        <div class="accept-wrap">
+                            <label for="accept">Agree with the <span>User Agreement</span> and <span>Privacy Policy</span></label>
+                            <input type="checkbox" id="accept" class="accept-checkbox">
+                        </div>
+
+                        <button>send</button>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="contact-us-burger disabled">
+        <div class="contact-burger-wrapper">
+            <h2>Contact us</h2>
+            <form action="">
+                <label for="name">Name</label>
+                <input type="text" id="name" class="thin-form">
+
+                <label for="email">Email</label>
+                <input type="text" id="email" class="thin-form">
+
+                <label for="msg">Message</label>
+                <textarea id="msg" class="big-form-msg"></textarea>
+
+                <button class="submit-contact-us">send</button>
+            </form>
+        </div>
+    </div>
+    <div class="leave-feedback-burger disabled">
+        <div class="feedback-burger-wrapper">
+            <h2>Leave feedback</h2>
+            <img src="img/cross-ltl.png" alt="cross" class="feedback-burger-del">
+            <form action="">
+                <label for="name">Name</label>
+                <input type="text" id="name" class="thin-form">
+
+                <label for="email">Email</label>
+                <input type="text" id="email" class="thin-form">
+
+                <label for="feedback">feedback</label>
+                <textarea name="feedback" id="feedback" class="big-form-feedback"></textarea>
+
+                <button class="submit-contact-us">send</button>
+            </form>
+        </div>
+    </div>
+    <div class="donate-burger-menu">
+        <div class="donate-burger-wrapper">
+            <h2>Donate to volunteers</h2>
+            <p>Support your favourite animals. It is as simple as buying a cup of coffee.</p>
+            <form action="">
+                <label for="choose-animal">Choose an animal</label>
+                <input type="text" id="choose-animal" class="choose-animal">
+
+                <label for="">Payments</label> 
+                <div class="periods">
+                    <button class="first-btn-sw per-btn active-button ">Monthly</button>
+                    <button class="secound-btn-sw per-btn">One-time</button>
+                </div>
+                <div class="amount">
+                    <button class="amount-btn active-button">$3</button>
+                    <button class="amount-btn"">$5</button>
+                    <button class="amount-btn"">$10</button>
+                    <button class="amount-btn"">$25</button>
+                </div>
+
+                <label for="your-name">Your name</label>
+                <input type="text" id="your-name" class="margin-bot-donate">
+
+                <label for="your-email">Your email</label>
+                <input type="text" id="your-email">
+                <div class="card-info">
+                    <div class="icons-card">
+                        <img src="img/PaymentMethods.svg" alt="PaymentMethods">
+                    </div>
+                    <div class="card-form">
+                        <span>
+                            <img src="img/CreditCard.svg" alt="CreditCard" class="credit-img-pad"><input type="text" class="card-number-input short-input-donate" placeholder="Card Number">
+                            <input type="text" class="card-date-input short-input-donate" placeholder="MM / YY">
+                            <input type="text" class="cvv-input short-input-donate" placeholder="CVC">
+                        </span>
+                    </div>
+                </div>
+                <button class="send-donate">send</button>
+                <div class="flex-wrapper-p">
+                    <img src="img/lock.svg" alt="">
+                    <p>Your payment is protected</p>
+                </div>
+            </form>
+        </div>
+    </div>
     <header>
         <div class="container header-wrapper">
             <img src="img/logo-header.png" alt="logo" class="logo">
@@ -22,7 +167,7 @@
                     <li><a href="#" class="selected-page-nav">About</a></li>
                     <li><a href="#">Map</a></li>
                     <li><a href="#">Zoos</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#" class="contact-burger-trigger">Contact Us</a></li>
                     <li class="nowrap"><a href="#">design</a></li>
                 </ul>
             </nav>
@@ -57,6 +202,9 @@
                         Observe different animals from around the world online in live time. Help vulunteers to take a good care of animals, donate to your favorite ones.
                     </p>
                     <button>Watch now</button>
+                    <button class="hide">
+                        Donate
+                    </button>
                 </div>
                 <aside class="first-page-img">
                     <img src="img/first-page-img.png" alt="panda" class="mainimg">
@@ -90,7 +238,8 @@
                 </div>
             </div>
         </div>
-        <img src="img/Illustrations.svg" alt="ilustrations" class="ilustration">
+        <!-- <div src="img/Illustrations.svg" alt="ilustrations" class="ilustration"> -->
+        <div class="ilustration"></div>
         <div class="thirdpage">
             <div class="container">
                 <div class="top-buttons">
@@ -121,7 +270,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="cardth secound">
+                        <div class="cardth secound nospace-lte">
                             <div class="top-img">
                                 <img src="img/eagle.png" alt="eagle">
                             </div>
@@ -139,7 +288,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="cardth nowrap third">
+                        <div class="cardth nowrap third ltl-del">
                             <div class="top-img">
                                 <img src="img/gorrila-card.png" alt="gorrila">
                             </div>
@@ -157,7 +306,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="cardth nobottomwrap forth">
+                        <div class="cardth nobottomwrap forth nospace-lte ltl-del">
                             <div class="top-img">
                                 <img src="img/aligators.png" alt="panda">
                             </div>
@@ -175,7 +324,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="cardth fifth">
+                        <div class="cardth fifth lte-del">
                             <div class="top-img">
                                 <img src="img/elephants.png" alt="elephants">
                             </div>
@@ -193,7 +342,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="cardth nowrap sixth">
+                        <div class="cardth nowrap sixth lte-del">
                             <div class="top-img">
                                 <img src="img/lemurs.png" alt="lemurs">
                             </div>
@@ -242,7 +391,7 @@
 
                     <span class='arrow'><img src="img/arrow-right.png" alt="" class="arrow-both"><img src="img/arrow-right-sec.png" alt="" class="arrow-left"></span>
 
-                    <img src="img/monkey.png" alt="monkey" class="bublefp">
+                    <img src="img/monkey.png" alt="monkey" class="bublefp monkey-pad">
                 </div>
             </div>
         </div>
@@ -299,29 +448,33 @@
                 <div class="animals-last-page">
                     <h2>Look at this beautiful animals</h2>
                     <div class="animals-list">
-                        <div class="animal-el">
-                            <img src="img/panda-card.png" alt="">
-                            <p>Pandas</p>
+                        <div class="first-an-wrap">
+                            <div class="animal-el">
+                                <img src="img/panda-card.png" alt="">
+                                <p>Pandas</p>
+                            </div>
+                            <div class="animal-el">
+                                <img src="img/gorrila-card.png" alt="">
+                                <p>Gorillas</p>
+                            </div>
+                            <div class="animal-el">
+                                <img src="img/eagle.png" alt="">
+                                <p>Eagles</p>
+                            </div>
                         </div>
-                        <div class="animal-el">
-                            <img src="img/gorrila-card.png" alt="">
-                            <p>Gorillas</p>
-                        </div>
-                        <div class="animal-el">
-                            <img src="img/eagle.png" alt="">
-                            <p>Eagles</p>
-                        </div>
-                        <div class="animal-el aligator">
-                            <img src="img/aligators.png" alt="">
-                            <p>Aligators</p>
-                        </div>
-                        <div class="animal-el adapt-cut">
-                            <img src="img/elephants.png " alt="">
-                            <p>elephants</p>
-                        </div>
-                        <div class="animal-el lemur adapt-cut">
-                            <img src="img/lemurs.png" alt="">
-                            <p>LEMURS</p>
+                        <div class="secound-an-wrap">
+                            <div class="animal-el aligator">
+                                <img src="img/aligators.png" alt="">
+                                <p>Aligators</p>
+                            </div>
+                            <div class="animal-el adapt-cut">
+                                <img src="img/elephants.png " alt="">
+                                <p>elephants</p>
+                            </div>
+                            <div class="animal-el lemur adapt-cut">
+                                <img src="img/lemurs.png" alt="">
+                                <p>LEMURS</p>
+                            </div>
                         </div>
                         <div class="animal-el nowrap-right pand">
                             <img src="img/panda-card.png" alt="">
@@ -331,7 +484,7 @@
                             <button class="btn-marg">
                                 <img src="img/to-right.png" alt="">
                             </button>
-                            <button>
+                            <button class="btn-adapt-an">
                                 <img src="img/to-left.png" alt="">
                             </button>
                         </div>
